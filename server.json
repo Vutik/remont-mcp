@@ -1,0 +1,23 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.Vutik/remont",
+  "title": "Remont — renovation planner",
+  "description": "AI renovation planner: step-by-step plan, materials from room sizes, local store prices, 3D layout",
+  "version": "1.0.0",
+  "websiteUrl": "https://remont-mcp.wrpzdm9jmt.workers.dev/",
+  "icons": [
+    {
+      "src": "https://remont-mcp.wrpzdm9jmt.workers.dev/icon.svg",
+      "mimeType": "image/svg+xml",
+      "sizes": [
+        "any"
+      ]
+    }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://remont-mcp.wrpzdm9jmt.workers.dev/mcp"
+    }
+  ]
+}

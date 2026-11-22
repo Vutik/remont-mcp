@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://vutik.github.io/remont-mcp/sitemap.xml
