@@ -1,0 +1,14 @@
+# Tells Bing, Yandex, Seznam, Naver and other IndexNow engines about the site pages after each Pages build.
+name: IndexNow
+on:
+  page_build:
+  workflow_dispatch:
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Submit site URLs
+        run: |
+          curl -sS -o /dev/null -w "IndexNow HTTP %{http_code}\n" -X POST https://api.indexnow.org/indexnow \
+            -H "Content-Type: application/json; charset=utf-8" \
+            -d '{"host":"vutik.github.io","key":"2ad05c756ecb838647679085c45d5766","keyLocation":"https://vutik.github.io/remont-mcp/2ad05c756ecb838647679085c45d5766.txt","urlList":["https://vutik.github.io/remont-mcp/","https://vutik.github.io/remont-mcp/ru/","https://vutik.github.io/remont-mcp/pl/","https://vutik.github.io/remont-mcp/uk/","https://vutik.github.io/remont-mcp/de/"]}'
