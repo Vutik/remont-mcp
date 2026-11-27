@@ -3,8 +3,12 @@
   "name": "io.github.Vutik/remont",
   "title": "Remont — renovation planner",
   "description": "AI renovation planner: step-by-step plan, materials from room sizes, local store prices, 3D layout",
-  "version": "1.0.0",
-  "websiteUrl": "https://remont-mcp.wrpzdm9jmt.workers.dev/",
+  "version": "1.0.1",
+  "websiteUrl": "https://vutik.github.io/remont-mcp/",
+  "repository": {
+    "url": "https://github.com/Vutik/remont-mcp",
+    "source": "github"
+  },
   "icons": [
     {
       "src": "https://remont-mcp.wrpzdm9jmt.workers.dev/icon.svg",
