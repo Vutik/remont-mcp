@@ -4,6 +4,8 @@ Plan an apartment or house renovation with Claude (or any MCP client): a step-by
 quantities calculated from your room sizes, prices from local DIY stores with links, contractor rates,
 an interactive checklist, a floor layout with furniture and a 3D view.
 
+[![Remont MCP connector](https://glama.ai/mcp/connectors/io.github.Vutik/remont/badges/score.svg)](https://glama.ai/mcp/connectors/io.github.Vutik/remont)
+
 **Server URL:** `https://remont-mcp.wrpzdm9jmt.workers.dev/mcp` (Streamable HTTP, no sign-in)
 
 [Website](https://vutik.github.io/remont-mcp/) ([RU](https://vutik.github.io/remont-mcp/ru/) · [PL](https://vutik.github.io/remont-mcp/pl/) · [UK](https://vutik.github.io/remont-mcp/uk/) · [DE](https://vutik.github.io/remont-mcp/de/)) · [Privacy policy](https://remont-mcp.wrpzdm9jmt.workers.dev/privacy) · [Support](https://remont-mcp.wrpzdm9jmt.workers.dev/support)
